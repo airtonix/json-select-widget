@@ -1,0 +1,21 @@
+<html>
+<body>
+    <form>
+        <div
+            id="countries"
+            data-component="json-select-widget"
+            data-initialise="true"
+        ></div>
+        <div
+            id="states"
+            data-debug=true
+            data-component="json-select-widget"
+            data-target-selector="#countries"
+            data-target-event="change"
+            data-filter-key="country_id"
+        ></div>
+
+    </form>
+    <script src="./index.js"></script>
+</body>
+</html>
